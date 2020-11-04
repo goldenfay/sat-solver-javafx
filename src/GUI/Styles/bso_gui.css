@@ -1,0 +1,19 @@
+
+.mainFxmlClass {
+
+    -fx-background-color:white;
+}
+.detailsButton {
+    -fx-background-color: #20c53f;
+    -fx-font-weight: bold;
+    
+    
+}
+.detailsButton:hover {
+    -fx-background-color: #31f154;
+}
+
+.left_options_btn:hover {
+    -fx-fill: #5185ee;
+}
+ 

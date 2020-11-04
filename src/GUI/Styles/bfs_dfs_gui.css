@@ -1,0 +1,44 @@
+
+.mainFxmlClass {
+ -fx-background-color: #ffffff;
+}
+.GUIToggler {
+    
+}
+.GUIToggler:selected .thumb-area { 
+    -fx-background-color: #57379b;
+    -fx-height: 50px;
+    
+    
+}
+
+.label_isUNSelected {
+    -fx-text-fill : rgb(76, 144, 255);
+    -fx-font-weight:bold;
+    -fx-font-size:14;
+}
+.label_isSelected {
+    -fx-text-fill : #ffffff;
+    -fx-font-weight:bold;
+    -fx-font-size:14;
+}
+
+.launch_btn {
+    -fx-background-color:#21db1e;
+    -fx-border-radius: 7px;
+    -fx-text-fill:#ffffff;
+    -fx-font-weight:bold;
+}
+.launch_btn:hover{
+    -fx-background-color:#ffffff;
+    -fx-border-color: #21db1e;
+    -fx-border-width:2px;
+    -fx-border-radius: 7px;
+    -fx-text-fill:#149612;
+    -fx-font-weight:bold;
+}
+
+.cont{
+    -fx-background-color: blue;
+}
+

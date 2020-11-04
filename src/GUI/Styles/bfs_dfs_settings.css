@@ -1,0 +1,9 @@
+
+.mainFxmlClass {
+    -fx-background-color: #ffffff;
+}
+.upload_BTN {
+     
+    -fx-border-width: 0px 1.5px 1.5px 0px;
+    -fx-border-color: #5b2ecc;
+}

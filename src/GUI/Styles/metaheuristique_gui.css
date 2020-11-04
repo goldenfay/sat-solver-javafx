@@ -1,0 +1,29 @@
+
+.mainFxmlClass {
+
+    -fx-background-color: #ffffff;
+}
+.Button {
+    -fx-border-width: 0px 0px 0px 0px;
+}
+.Button:hover {
+    -fx-border-width: 0 0 7 0;
+    
+}
+
+.aco_btn:hover *{
+    -fx-fill    :linear-gradient(to bottom right,  #ef212f, #ef9313);
+    
+}
+
+.bso_btn:hover *{
+    -fx-fill    :linear-gradient(to bottom right, #f49004, #f4c804);
+}
+
+.adn_btn:hover *{
+    -fx-fill    :linear-gradient(to right, #1fd148, #9de8b8);
+}
+
+.bat_btn:hover *{
+    -fx-fill    :linear-gradient(to bottom right, #323233, #9ca3ad);
+}

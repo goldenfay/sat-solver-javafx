@@ -1,0 +1,13 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+#executionAreaLayout
+{
+   
+     -fx-border-color: blue;
+     -fx-border-width:2px;
+}

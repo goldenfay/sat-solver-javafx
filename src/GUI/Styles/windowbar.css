@@ -1,0 +1,9 @@
+
+
+.mainFxmlClass {
+
+    -fx-background-color:white;
+}
+.close_btn:hover {
+    -fx-fill : #cc1515;
+}

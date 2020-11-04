@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" stylesheets="@../Styles/ga_settings_gui.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controllers.AStart_Settings_GUIController">
+   <children>
+      <Button layoutX="551.0" layoutY="2.0" mnemonicParsing="false" onAction="#dismissWindow" prefHeight="34.0" prefWidth="49.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <FontAwesomeIcon glyphName="CLOSE" size="1.6em" styleClass="close_btn">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </FontAwesomeIcon>
+         </graphic>
+      </Button>
+      <Text fill="#d01e1e" layoutX="136.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SETTING PARAMETERS" textAlignment="CENTER" wrappingWidth="328.13671875">
+         <font>
+            <Font name="Roboto" size="30.0" />
+         </font>
+      </Text>
+      <VBox layoutX="50" layoutY="200" prefHeight="262.0" prefWidth="557.0">
+         <children> 
+            <AnchorPane layoutX="10.0" layoutY="114.0" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="cnfFileLabel" layoutX="14.0" layoutY="17.0" prefHeight="17.0" prefWidth="100.0" text="Benchmark File :" textFill="#387ad6">
+                     <font>
+                        <Font name="Roboto" size="13.0" />
+                     </font>
+                  </Label>
+                  <HBox fx:id="uploadBtnContainer" layoutX="172.0" layoutY="8.0" prefHeight="35.0" prefWidth="185.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER_LEFT" layoutX="301.0" layoutY="336.0" prefHeight="50.0" prefWidth="250.0">
+         <children>
+            <Button fx:id="confirmBtn" mnemonicParsing="false" onAction="#saveSettings" prefHeight="35.0" prefWidth="91.0" style="-fx-border-radius: 0;" text="Confirm">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="confirm_btn" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Roboto Bold" size="15.0" />
+               </font>
+            </Button>            
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

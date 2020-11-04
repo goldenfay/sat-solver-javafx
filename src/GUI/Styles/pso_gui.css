@@ -1,0 +1,42 @@
+
+.mainFxmlClass {
+
+    -fx-background-color:white;
+}
+.detailsButton {
+    -fx-background-color: #20c53f;
+    -fx-font-weight: bold;
+    
+    
+}
+.detailsButton:hover {
+    -fx-background-color: #31f154;
+}
+
+.left_options_btn:hover {
+    -fx-fill: #5185ee;
+}
+
+
+
+
+        /*  Charts styles  */
+        
+.chart-series-bar {    
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+ 
+.default-color0.chart-series-bar { -fx-stroke: #e9967a; }
+.default-color1.chart-series-bar { -fx-stroke: #f0e68c; }
+.default-color2.chart-series-bar { -fx-stroke: #dda0dd; }    
+
+.action_buttons{
+    -fx-background-color:transparent;
+}
+.action_buttons:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(66, 135, 245,0.8), 10, 0, 0, 0);
+    /*-fx-border-width: 2px;
+    -fx-border-color:#4287f5;*/
+    -fx-background-color:#4287f5;
+}
